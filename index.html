@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>week's agenda app</h1>
+    <div class="container">  
+    
+
+    <div class="left">
+        <form id="form">
+          <label for="post">Escreva seus compromissos</label>
+          <br><br>
+          <textarea name="post" id="input" cols="30" rows="10"></textarea>
+          <br> <br>
+          <div id="msg"></div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+
+      <div class="right">
+        <h3>Meus compromissos da semana</h3>
+        <div id="posts"> 
+            <div >
+                <p>Prova de Desenvolvimento Móbile Android</p>
+                <span class="options">
+                  <i  onClick="deletePost(this)" class="fas fa-edit"></i>
+                  <i onClick="editPost(this)" class="fas fa-trash-alt"></i>
+                </span>                
+              </div>
+      </div>        
+    </div>
+
+</body>
+
+<script src="cruud.js"></script>
+</html>
