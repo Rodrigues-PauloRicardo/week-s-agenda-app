@@ -13,7 +13,7 @@ form.addEventListener("submit", (e) => {
   
   let formValidation = () => {
     if (input.value === "") {
-        msg.innerHTML = "a postagem não pode ficar em branco";
+        msg.innerHTML = "Adicione um compromisso";
         console.log("failure");
       } else {
         console.log("successs");
