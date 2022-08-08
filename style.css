@@ -1,13 +1,11 @@
 body {
     font-family: sans-serif;
-    border: 1px solid red;
   }
    
   .container {
     margin: 5px;
     display: flex;
     gap: 50px;
-    background-color: blue;
   }
   @media screen and (max-width:400px) {
     .container{
@@ -17,8 +15,8 @@ body {
   
   #posts {
     width: 400px;
-    background-color: aqua;
     max-width: 100%;
+    border-radius: 5px;
   }
   
   i {
@@ -26,26 +24,29 @@ body {
   }
     
   #posts div {
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  
+    border: 3px solid white;
+    background-color: rgb(169, 231, 231);
+    border-radius: 5px;
+    
+  }  
   .options {
     display: flex;
-    gap: 25px;
-    background-color: purple;
-
+    gap: 25px;   
+  }
+  .right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   
   #msg {
     color: red;
   }
-  .right{
-    background-color: rgb(19, 190, 190);
-  }
 
-  .left{
-    background-color: rgb(212, 155, 69);
-  }
+
+ 
 
