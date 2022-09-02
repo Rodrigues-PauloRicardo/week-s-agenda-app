@@ -13,7 +13,7 @@ form.addEventListener("submit", (e) => {
   
   let formValidation = () => {
     if (input.value === "") {
-        msg.innerHTML = "Adicione um compromisso";
+        msg.innerHTML = "Para enviar ou salvar é necessário uma atividade";
         console.log("failure");
       } else {
         console.log("successs");
