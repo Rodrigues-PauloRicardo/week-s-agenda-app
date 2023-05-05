@@ -13,7 +13,7 @@ form.addEventListener("submit", (e) => {
   
   let formValidation = () => {
     if (input.value === "") {
-        msg.innerHTML = "Para enviar ou salvar é necessário uma atividade";
+        msg.innerHTML = "PARA SALVAR É NECESSÁRIO UMA ATIVIDADE";
         console.log("failure");
       } else {
         console.log("successs");
@@ -21,9 +21,6 @@ form.addEventListener("submit", (e) => {
         acceptData();
     }
 };
-
-
-
 
 let data = {};
 let acceptData = () => {
@@ -46,7 +43,6 @@ let acceptData = () => {
     `;
     input.value = "";
   };  
-
  
   let deletePost = (e) => {
     e.parentElement.parentElement.remove();

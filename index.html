@@ -4,24 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />  
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    
+    
     <title>Document</title>
 </head>
 <body>    
 
-    <div class="container"> 
-      <h1>week's agenda app</h1>
+    <div class="container">
+    <div class="title">
+      week's agenda app
+    </div> 
+      
+      <div id="clock">
+       
+      </div>
+
+      
         <form id="form">
-          <label for="post"><h3>Escreva seus compromissos</h3></label>
-          <br><br>
-          <textarea name="post" id="input" cols="30" rows="10"></textarea>
-          <br> <br>
-          <div id="msg"></div>
-          <button type="submit">Enviar/Salvar</button>
+          <label for="post"></label>
+           
+
+ 
+<div class="wrap">
+  <div class="apps">
+    <div class="app yellow">
+      <div class="top">
+        <div class="fa fa-heart"></div>
+      </div>
+    </div>
+    <div class="app red">
+      <div class="top">
+        <div class="fa fa-headphones"></div>
+      </div>
+    </div>
+    <div class="app blue">
+      <div class="top">
+        <div class="fa fa-cutlery"></div>
+      </div>
+    </div>
+    <div class="app green">
+      <div class="top">
+        <div class="fa fa-check"></div>
+      </div>
+    </div>
+    <div class="app pink">
+      <div class="top">
+        <div class="fa fa-home"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="msg"></div>
+
+          <textarea name="post" id="input" placeholder="ADICIONE AQUI SEUS LEMBRETES"   cols="30" rows="10"></textarea>
+          
+         
+          
+          <div class="btn_salvar">
+           <button type="submit">SALVAR</button> 
+          </div>
+                    
         </form>
 
-        <h3>Meus compromissos da semana</h3>
+        <h3>--MEUS LEMBRETES SALVOS--</h3>
         <div id="posts"> 
             <div >
                 <span class="options">                  
@@ -32,4 +81,5 @@
 </body>
 
 <script src="cruud.js"></script>
+<script src="clock.js"></script>
 </html>
