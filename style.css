@@ -29,22 +29,32 @@ body {
   width: 400px;
   height: 40px;
 }
+@media screen and (min-width:550px) {
+  .title{
+    width: 80vw;                       
+}
+}
 #clockAA{
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  
+  justify-content: space-around;  
   font-size: 26px;
   background-color: #fff;
   border-radius: 5px;
   width: 400px;
   height: 40px;
 }
+@media screen and (min-width:550px) {
+ #clockAA{
+    width: 80vw;                       
+}
+}
 #posts div {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 form{
   padding: 5px;
   display: flex;
@@ -62,6 +72,12 @@ form{
   border-radius: 5px;
   margin-bottom: 0;
 }
+@media screen and (min-width:550px) {
+  #input{
+      width: 80vw;                      
+}
+}
+
 #msg{ 
   height: 48px;
   display: flex;
@@ -70,15 +86,14 @@ form{
   color: red;
   font-size: 15px;
   font-weight: bold;  
-  animation: progress-animation 5s infinite
 }
 .btn_salvar{
   display: flex;
   justify-content: center;
-  align-items: center;
-  border: 1px solid rgb(0, 255, 85); 
+  align-items: center;   
 }
 button{
+  margin: 5px;
   font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
@@ -99,11 +114,15 @@ h3{
   font-size: 23px;
   padding: 15px;
   width: 90vw;
-  max-width: 400px;
+  width: 400px;
   min-height: 480px;
   background-color: rgb(193, 229, 240);
-  border-radius: 5px; 
-  
+  border-radius: 5px;  
+}
+@media screen and (min-width:550px) {
+  #posts{
+    width: 80vw;                       
+}
 }
 .footer{
   position: fixed;  
@@ -118,6 +137,11 @@ h3{
   width: 400px;
   border-radius: 5px;
   height: 35px;
+}
+@media screen and (min-width:550px) {
+  .footer{
+    width: 80vw;                       
+}
 }
 
  
