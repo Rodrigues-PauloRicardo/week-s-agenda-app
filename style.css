@@ -29,10 +29,11 @@ body {
   width: 400px;
   height: 40px;
 }
-#clock{
+#clockAA{
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-around;
+  
   font-size: 26px;
   background-color: #fff;
   border-radius: 5px;

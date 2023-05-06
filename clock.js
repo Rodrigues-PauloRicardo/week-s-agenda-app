@@ -7,5 +7,12 @@ function displayTime() {
   }
   
   // Atualiza a hora a cada segundo
-  setInterval(displayTime, 1000);
+  setInterval(displayTime, 1000);  
+
+
+
+
+let date = new Date().toLocaleDateString("pt-BR");
+document.getElementById("date").innerHTML = date;
+
   
