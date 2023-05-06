@@ -15,7 +15,8 @@ Tabela de conteúdos
    * Sistema Responsivo 
 <!--te-->
 
-[![Netlify Status]
+
+[![Netlify Status](https://https://mylist2023.netlify.app/)]
 
 ### 🛠 Tecnologias
 HTML, CSS e Javascript
