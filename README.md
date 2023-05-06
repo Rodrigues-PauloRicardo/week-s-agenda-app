@@ -20,7 +20,7 @@ Tabela de conteúdos
 ### 🛠 Tecnologias
 HTML, CSS e Javascript
 <br>
-<img src=https:// width="700px">
+<img src=https://github.com/Rodrigues-PauloRicardo/week-s-agenda-app/blob/main/img/tela_memoryapp.jpg width="700px">
 <br>
 
 <h2>MIT License</h2>
