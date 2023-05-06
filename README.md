@@ -16,7 +16,7 @@ Tabela de conteúdos
 <!--te-->
 
 
-[![Netlify Status](https://https://mylist2023.netlify.app/)]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7d956049-9689-4b92-a980-4e55f0a24a78/deploy-status)](https://app.netlify.com/sites/mylist2023/deploys)
 
 ### 🛠 Tecnologias
 HTML, CSS e Javascript
